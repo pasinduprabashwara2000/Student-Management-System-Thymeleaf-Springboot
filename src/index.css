@@ -1,0 +1,46 @@
+.sidebar {
+    background-color: #198754;
+    color: white;
+    min-height: 100vh;
+}
+
+.sidebar .btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.sidebar .btn.active {
+    background-color: white;
+    color: #198754;
+    font-weight: bold;
+}
+
+.main-title{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+form .btn {
+    min-width: 90px;
+}
+
+form .form-control {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
